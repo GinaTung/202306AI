@@ -1,7 +1,7 @@
 /* 需載入Noto Sans TC字型來源 */
 body {
     font-family: "Noto Sans TC", Arial, sans-serif;
-    line-height: 1.5;
+    line-height: 1.2;
     color: #fff;
     background: #1E1E1E;
   }
@@ -35,4 +35,31 @@ body {
   }
   h6{
     font-size: 20px;
+  }
+  .mb-1{
+    margin-bottom: 8px;
+  }
+  .mb-2{
+    margin-bottom: 12px;
+  }
+  .mb-3{
+    margin-bottom: 16px;
+  }
+  .mb-4{
+    margin-bottom: 20px;
+  }
+  .mb-5{
+    margin-bottom: 24px;
+  }
+  .mb-6{
+    margin-bottom: 28px;
+  }
+  .mb-7{
+    margin-bottom: 32px;
+  }
+  .mb-8{
+    margin-bottom: 36px;
+  }
+  .mb-9{
+    margin-bottom: 40px;
   }

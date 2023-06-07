@@ -1,4 +1,43 @@
 .container{
-    max-width: 1296px;
+    max-width: 1320px;
     margin: 0 auto;
+}
+.banner{
+    margin-bottom: 160px;
+}
+.btn{
+    padding: 20px 40px;
+    font-size: 20px;
+    color:white;
+    border: 1px solid #fff;
+}
+.w-32{
+    width: 31.4%;
+}
+.w-68{
+    width: 68.6%;
+}
+.service-card{
+    margin-top: 80px;
+    margin-bottom: 160px;
+}
+.service-card li{
+    padding: 80px 40px;
+    border-radius: 16px;
+    max-width: calc(33.33% - 12px);
+}
+.parner{
+    margin-bottom: 160px;
+}
+.expertise{
+    margin-top: 80px;
+}
+.expertise li img{
+    width: 160px;
+}
+.recommed{
+    margin-bottom: 160px;
+}
+.card{
+    background: #525252;
 }
