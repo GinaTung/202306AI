@@ -1,43 +1,270 @@
-.container{
-    max-width: 1320px;
-    margin: 0 auto;
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
 }
-.banner{
-    margin-bottom: 160px;
+.navbar {
+  margin-top: 20px;
 }
-.btn{
-    padding: 20px 40px;
-    font-size: 20px;
-    color:white;
-    border: 1px solid #fff;
+.banner {
+  margin-bottom: 160px;
 }
-.w-32{
-    width: 31.4%;
+.btn {
+  padding: 20px 40px;
+  font-size: 20px;
+  color: white;
+  border: 1px solid #fff;
+  border-radius: 16px;
 }
-.w-68{
-    width: 68.6%;
+.w-32 {
+  width: 31.4%;
 }
-.service-card{
-    margin-top: 80px;
-    margin-bottom: 160px;
+.w-68 {
+  width: 68.6%;
 }
-.service-card li{
-    padding: 80px 40px;
-    border-radius: 16px;
-    max-width: calc(33.33% - 12px);
+.service-card {
+  margin-top: 80px;
+  margin-bottom: 160px;
 }
-.parner{
-    margin-bottom: 160px;
+.service-card li {
+  padding: 80px 40px;
+  border-radius: 16px;
+  max-width: calc(33.33% - 12px);
 }
-.expertise{
-    margin-top: 80px;
+/* overflow 跟側邊陰影定位 */
+.partner {
+  margin-bottom: 160px;
 }
-.expertise li img{
-    width: 160px;
+.enterprise {
+  margin-top: 80px;
+  overflow-x: auto;
+  position: relative;
 }
-.recommed{
-    margin-bottom: 160px;
+/* 隱藏 x 軸 */
+/* Hide scrollbar for Chrome, Safari and Opera */
+.enterprise::-webkit-scrollbar {
+  display: none;
 }
-.card{
-    background: #525252;
+/* Hide scrollbar for IE, Edge and Firefox */
+.enterprise {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.enterprise::after,
+.enterprise::before {
+  content: "";
+  position: sticky;
+  width: 196px;
+  height: 40px;
+  top: 0;
+}
+.enterprise::before {
+  left: 0;
+  padding-right: 196px;
+  background: linear-gradient(
+    90deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0.991615) 11.79%,
+    rgba(0, 0, 0, 0.967585) 21.38%,
+    rgba(0, 0, 0, 0.9296) 29.12%,
+    rgba(0, 0, 0, 0.879348) 35.34%,
+    rgba(0, 0, 0, 0.818519) 40.37%,
+    rgba(0, 0, 0, 0.7488) 44.56%,
+    rgba(0, 0, 0, 0.671881) 48.24%,
+    rgba(0, 0, 0, 0.589452) 51.76%,
+    rgba(0, 0, 0, 0.5032) 55.44%,
+    rgba(0, 0, 0, 0.414815) 59.63%,
+    rgba(0, 0, 0, 0.325985) 64.66%,
+    rgba(0, 0, 0, 0.2384) 70.88%,
+    rgba(0, 0, 0, 0.153748) 78.62%,
+    rgba(0, 0, 0, 0.0737185) 88.21%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.enterprise::after {
+  right: 0;
+  padding-left: 196px;
+  background: linear-gradient(
+    90deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0.991615) 11.79%,
+    rgba(0, 0, 0, 0.967585) 21.38%,
+    rgba(0, 0, 0, 0.9296) 29.12%,
+    rgba(0, 0, 0, 0.879348) 35.34%,
+    rgba(0, 0, 0, 0.818519) 40.37%,
+    rgba(0, 0, 0, 0.7488) 44.56%,
+    rgba(0, 0, 0, 0.671881) 48.24%,
+    rgba(0, 0, 0, 0.589452) 51.76%,
+    rgba(0, 0, 0, 0.5032) 55.44%,
+    rgba(0, 0, 0, 0.414815) 59.63%,
+    rgba(0, 0, 0, 0.325985) 64.66%,
+    rgba(0, 0, 0, 0.2384) 70.88%,
+    rgba(0, 0, 0, 0.153748) 78.62%,
+    rgba(0, 0, 0, 0.0737185) 88.21%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  transform: rotate(-180deg);
+}
+
+.enterprise li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.enterprise li img {
+  width: 160px;
+  height: 40px;
+  max-width: initial;
+}
+
+.recommed {
+  margin-bottom: 160px;
+}
+.card {
+  background: #525252;
+  padding: 40px;
+  border-radius: 16px;
+}
+.card-body {
+  padding: 0px;
+}
+.card-stars {
+  margin-bottom: 20px;
+}
+
+.member-photo {
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+}
+.tools-section {
+  background: #fff;
+  border-radius: 160px;
+  color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.tools-section h3 {
+  margin-top: 160px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+/*輸入框內的圖示屬性設定*/
+.search-inputBar {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+}
+.underLineStyle {
+  /* width: 1296px; */
+  outline: none;
+  border: 1px solid #F2F2F2;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  background: #F2F2F2;
+  border-radius: 16px;
+}
+.search-icon{
+  /*左邊圖示*/
+  position: absolute;
+  left: 25px;
+  top: calc(50% - 0.5em);
+}
+
+.tool-card {
+  max-width: calc(33.33% - 12px);
+  border: 1px solid #f2f2f2;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+}
+/* 工具卡片邊界 */
+.bd-gray-1 {
+  border-top: 1px solid #f2f2f2;
+}
+.p-all-1 {
+  padding: 20px 32px;
+}
+
+.btnBar1 {
+  color: #020202;
+  font-size: 16px;
+  border: 1px solid #F2F2F2;
+  width: 132px;
+}
+.icon-w16{
+  width: 16px;
+}
+.btnBar1:hover{
+  background: #f2f2f2;
+}
+.btnBar2{
+  color: #020202;
+padding: 8px 16px;
+border: 1px solid #F2F2F2;
+}
+.btnBar2:hover{
+  background: #f2f2f2;
+}
+.pagination{
+  margin-bottom: 160px;
+}
+.footer-ad{
+  text-align: center;
+  margin-top: 80px;
+  padding-bottom: 160px;
+  border-bottom: 1px solid #fff;
+}
+.footer-section{
+  padding: 80px 0;
+}
+.footer-bottom{
+  border-top: 1px solid #fff;
+  padding: 32px;
+}
+.footer-link{
+  margin-left: 100px;
+}
+.footer-link a{
+  color: #fff;
+  display: block;
+  margin: 0 10px;
+}
+.icons-color{
+  color: #020202;
+}
+.material-icons:hover{
+  color:#F18724;
+}
+.page-link{
+  color: #020202;
+}
+.page-item.active .page-link {
+  background-color: #020202;
+    border-color: #020202;
+}
+.page-link:hover{
+  color: #fff;
+  background-color: #020202;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #F18724;
+}
+.btn:hover {
+  color: #F18724;
+}
+a:hover{
+  color: #F18724;
+}
+.text-hover:hover{
+  color: #F18724;
 }
