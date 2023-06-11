@@ -5,8 +5,18 @@
 .navbar {
   margin-top: 20px;
 }
+
 .banner {
   margin-bottom: 160px;
+}
+@media (max-width: 576px) {
+  .banner {
+    margin-bottom: 120px;
+  }
+  .banner img {
+    margin-top: 180px;
+    width: 30%;
+  }
 }
 .btn {
   padding: 20px 40px;
@@ -15,11 +25,26 @@
   border: 1px solid #fff;
   border-radius: 16px;
 }
+@media (max-width: 576px) {
+  .btn {
+    font-size: 16px;
+  }
+}
 .w-32 {
   width: 31.4%;
 }
+@media (max-width: 576px) {
+  .w-32 {
+    width: 100%;
+  }
+}
 .w-68 {
   width: 68.6%;
+}
+@media (max-width: 576px) {
+  .w-68 {
+    width: 100%;
+  }
 }
 .service-card {
   margin-top: 80px;
@@ -29,6 +54,11 @@
   padding: 80px 40px;
   border-radius: 16px;
   max-width: calc(33.33% - 12px);
+}
+@media (max-width: 576px) {
+  .service-card li {
+    max-width: 100%;
+  }
 }
 /* overflow 跟側邊陰影定位 */
 .partner {
@@ -146,6 +176,11 @@
   align-items: center;
   margin: 0 auto;
 }
+@media (max-width:576px) {
+  .tools-section{
+    border-radius: 20px;
+  }
+}
 .tools-section h3 {
   margin-top: 160px;
   margin-bottom: 80px;
@@ -162,15 +197,15 @@
 .underLineStyle {
   /* width: 1296px; */
   outline: none;
-  border: 1px solid #F2F2F2;
+  border: 1px solid #f2f2f2;
   padding-top: 10px;
   padding-left: 50px;
   padding-bottom: 10px;
   font-size: 14px;
-  background: #F2F2F2;
+  background: #f2f2f2;
   border-radius: 16px;
 }
-.search-icon{
+.search-icon {
   /*左邊圖示*/
   position: absolute;
   left: 25px;
@@ -184,6 +219,12 @@
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 576px) {
+  .tool-card {
+    max-width: 100%;
+    padding: 0 12px;
+  }
+}
 /* 工具卡片邊界 */
 .bd-gray-1 {
   border-top: 1px solid #f2f2f2;
@@ -191,80 +232,142 @@
 .p-all-1 {
   padding: 20px 32px;
 }
+/* search-btnBar swipper */
+.swiper {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.swiper-slide {
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .search-body {
+    display: none;
+  }
+  .search-btnBar{
+    margin-bottom: 16px;
+  }
+  .swiper {
+margin-bottom: 48px;
+  }
+}
 
 .btnBar1 {
   color: #020202;
   font-size: 16px;
-  border: 1px solid #F2F2F2;
+  border: 1px solid #f2f2f2;
   width: 132px;
 }
-.icon-w16{
+.icon-w16 {
   width: 16px;
 }
-.btnBar1:hover{
+.btnBar1:hover {
   background: #f2f2f2;
 }
-.btnBar2{
-  color: #020202;
-padding: 8px 16px;
-border: 1px solid #F2F2F2;
+
+
+.btnBar2 {
+  color: #919191;
+  padding: 8px 16px;
+  border: 1px solid #f2f2f2;
 }
-.btnBar2:hover{
+.btnBar2:hover {
   background: #f2f2f2;
 }
-.pagination{
+.pagination {
   margin-bottom: 160px;
 }
-.footer-ad{
+.footer-ad {
   text-align: center;
   margin-top: 80px;
   padding-bottom: 160px;
   border-bottom: 1px solid #fff;
 }
-.footer-section{
+.footer-section {
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-section2 {
   padding: 80px 0;
 }
-.footer-bottom{
+.footer-bottom {
   border-top: 1px solid #fff;
   padding: 32px;
 }
-.footer-link{
+.footer-link {
   margin-left: 100px;
 }
-.footer-link a{
+.footer-link a {
   color: #fff;
   display: block;
   margin: 0 10px;
 }
-.icons-color{
+/* .footer-link2 {
+  margin-left: 100px;
+} */
+.footer-link2 a {
+  color: #fff;
+  display: block;
+  margin-right: 10px;
+  margin-bottom: 32px;
+}
+@media (max-width: 576px) {
+  .footer-bottom{
+    padding: 32px 0px 0 0;
+  }
+  .footer-section {
+    display: none;
+  }
+  .footer-link {
+    margin-left: 0px;
+  }
+  .footer-menu{
+    width: 100%;
+  }
+  .d-none-md{
+    display: none !important;
+  }
+  .mb-40{
+    margin-bottom: 40px;
+  }
+}
+.icons-color {
   color: #020202;
 }
-.material-icons:hover{
-  color:#F18724;
+.material-icons:hover {
+  color: #f18724;
 }
-.page-link{
+.page-link {
   color: #020202;
 }
 .page-item.active .page-link {
   background-color: #020202;
-    border-color: #020202;
+  border-color: #020202;
 }
-.page-link:hover{
+.page-link:hover {
   color: #fff;
   background-color: #020202;
 }
-.navbar-dark .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #F18724;
+  color: #f18724;
 }
 .btn:hover {
-  color: #F18724;
+  color: #f18724;
 }
-a:hover{
-  color: #F18724;
+a:hover {
+  color: #f18724;
 }
-.text-hover:hover{
-  color: #F18724;
+.text-hover:hover {
+  color: #f18724;
+}
+/* tools-card-h3文字 */
+.text-color-b {
+  color: #020202;
 }

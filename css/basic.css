@@ -16,6 +16,16 @@ img {
   height: auto;
   /* background: #1E1E1E; */
 }
+@media (max-width:576px) {
+  .navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+  }
+  .logo{
+    width: 50%;
+  }
+}
 
 a {
   text-decoration: none;
@@ -26,13 +36,28 @@ h2 {
   font-size: 120px;
   line-height: 1.2;
 }
+@media (max-width:576px) {
+  h2{
+    font-size: 48px;
+  }
+}
 h3 {
   font-size: 80px;
   line-height: 1.2;
 }
+@media (max-width:576px) {
+  h3{
+    font-size: 32px;
+  }
+}
 h4 {
   font-size: 48px;
   line-height: 1.2;
+}
+@media (max-width:576px) {
+  h4{
+    font-size: 32px;
+  }
 }
 h5 {
   font-size: 32px;
