@@ -13,7 +13,6 @@ var swiper = new Swiper(".mySwiper", {
 //   })
 var swiper2 = new Swiper(".mySwiper2", {
   slidesPerView: 1,
-  spaceBetween: 5,
   pagination: {
     el: ".swiper-pagination",
   },

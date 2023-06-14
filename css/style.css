@@ -149,8 +149,8 @@
 .container-card{
   max-width: 1320px;
   margin: 0 auto;
-  padding: 0 12px;
   margin-bottom: 160px;
+    overflow-x: hidden;
 }
 .mb-160{
   margin-bottom: 160px;
