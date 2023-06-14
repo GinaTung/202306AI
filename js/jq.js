@@ -1,6 +1,5 @@
 $(document).ready(function () {
-  // 鏈式效果:連續動畫
-  $("#deco-jq").slideToggle(10000);
+  $("#deco-jq").slideUp(1000);
 });
 
 $("#scrollToTop").click(function () {

@@ -33,13 +33,13 @@
 }
 .x{
 	transform: matrix(0, 1, -1, 0, 0, 0);
-	background: #56C4C5 0% 0% no-repeat padding-box;
+	background: #f18724 0% 0% no-repeat padding-box;
 	width: 2px;
 	height: 20px;
 	display: block;
 }
 .y{
-	background: #56C4C5 0% 0% no-repeat padding-box;
+	background: #f18724 0% 0% no-repeat padding-box;
 	width: 2px;
 	height: 20px;
 	display: block;
