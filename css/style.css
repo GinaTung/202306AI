@@ -150,7 +150,6 @@
   max-width: 1320px;
   margin: 0 auto;
   margin-bottom: 160px;
-    overflow-x: hidden;
 }
 .mb-160{
   margin-bottom: 160px;
@@ -181,9 +180,7 @@ background: rgba(255, 255, 255, 0.08);
   padding: 0;
   margin-bottom: 20px;
 }
-.card-text{
-  flex-grow: 1;
-}
+
 .card-footer{
   padding: 0;
   display: flex;
@@ -237,7 +234,9 @@ background: rgba(255, 255, 255, 0.08);
   left: 25px;
   top: calc(50% - 0.5em);
 }
-
+.nav-pills .nav-link.active{
+  background: #f18724;
+}
 .tool-card {
   max-width: calc(33.33% - 12px);
   border: 1px solid #f2f2f2;
@@ -281,10 +280,9 @@ background: rgba(255, 255, 255, 0.08);
   background: #f2f2f2;
 }
 
-
 .btnBar2 {
   color: #919191;
-  padding: 8px 16px;
+  padding: 8px 16px ;
   border: 1px solid #f2f2f2;
 }
 .btnBar2:hover {

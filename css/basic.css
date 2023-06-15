@@ -1,3 +1,7 @@
+/* html,
+body {
+  height: 100%;
+} */
 /* 需載入Noto Sans TC字型來源 */
 body {
   font-family: "Noto Sans TC", Arial, sans-serif;
