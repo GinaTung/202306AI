@@ -9,14 +9,24 @@
 .banner {
   margin-bottom: 160px;
 }
+.mb-80{
+  margin-bottom: 80px;
+}
+.banner-text-end{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 238px;
+}
 @media (max-width: 576px) {
   .banner {
     margin-bottom: 120px;
   }
-  .banner img {
-    margin-top: 180px;
+  .grass {
     width: 30%;
   }
+}
+.mb-180{
+  margin-bottom: 180px;
 }
 .btn {
   padding: 20px 40px;
@@ -24,6 +34,10 @@
   color: white;
   border: 1px solid #fff;
   border-radius: 16px;
+}
+.btn:hover {
+  color: #1e1e1e;
+  background: #fff;
 }
 @media (max-width: 576px) {
   .btn {
@@ -58,6 +72,7 @@
 @media (max-width: 576px) {
   .service-card li {
     max-width: 100%;
+    margin-bottom: 12px;
   }
 }
 /* overflow 跟側邊陰影定位 */
@@ -244,6 +259,20 @@ background: rgba(255, 255, 255, 0.08);
   display: flex;
   flex-direction: column;
 }
+/* 參https://tools.wingzero.tw/article/sn/623 */
+/* 圖片放大語法 */
+.bigpic{
+  /* width: 416px;
+  height: 312px; */
+  background: #aaa;
+  overflow: hidden;
+}
+.card-img-top{
+  transition: .5s;
+}
+.bigpic:hover .card-img-top{
+  transform: scale(1.2);
+}
 @media (max-width: 576px) {
   .tool-card {
     max-width: 100%;
@@ -371,9 +400,7 @@ background: rgba(255, 255, 255, 0.08);
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #f18724;
 }
-.btn:hover {
-  color: #f18724;
-}
+
 a:hover {
   color: #f18724;
 }
