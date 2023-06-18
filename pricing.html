@@ -49,13 +49,18 @@
       </div>
     </nav>
     <div class="banner">
-      <h2 class="mb-9">用多少，<br>付多少。</h2>
-      <h4>我們相信，最靈活的取用機制，才能最大化的幫助你業務的推動。</h4>
-      <a type="button" class="btn">開始使用</a>
-      <div class="d-flex justify-content-lg-end" id="deco-jq">
-        <img src="./img/deco.png" alt="deco">
-        <img src="./img/deco.png" alt="deco">
-        <img src="./img/deco.png" alt="deco">
+      <h2 class="mb-80">用多少，<br>付多少。</h2>
+
+      <div class="row">
+        <div class="col-md-6 col-4"></div>
+        <div class="col-md-6 col-8 banner-text-end">
+          <h4 class="font-28">我們相信，最靈活的取用機制，才能最大化的幫助你業務的推動。</h4>
+        </div>
+      </div>
+      <div class="d-flex" id="deco-jq">
+        <img class="grass" src="./img/deco.png" alt="grass">
+        <img class="grass" src="./img/deco.png" alt="grass">
+        <img class="grass" src="./img/deco.png" alt="grass">
       </div>
     </div>
   </div>
@@ -181,7 +186,8 @@
           </a>
         </div>
       </div>
-      <!-- BS5等寬無空隙加入w-auto-->
+      <!-- BS5等寬無空隙加入w-auto -->
+      <!-- 須研究部用隱藏切換方式 -->
       <div class="swiper mySwiper position-relative d-md-none">
         <div class="swiper-wrapper ">
           <div class="swiper-slide w-auto w-auto position-relative d-flex flex-nowrap ">
@@ -191,7 +197,7 @@
             <a href=" #" type="button" class="btn btnBar2">聊天</a>
           </div>
           <div class="swiper-slide w-auto position-relative d-flex flex-nowrap">
-            <a href="#" type="button"  class="btn btnBar2">影像辨識</a>
+            <a href="#" type="button" class="btn btnBar2">影像辨識</a>
           </div>
           <div class="swiper-slide w-auto position-relative d-flex flex-nowrap">
             <a href="#" type="button" class="btn btnBar2">翻譯</a>
@@ -209,7 +215,9 @@
       </div>
       <div class="card-group justify-content-between flex-wrap">
         <div class="tool-card">
-          <img src="./img/tool1.png" class="card-img-top" alt="tool1">
+          <a href="#" class="bigpic">
+            <img src="./img/tool1.png" class="card-img-top" alt="tool1">
+          </a>
           <div class="card-body p-all-1">
             <h6 class="card-title fw-bold"><a href="#" class="text-hover text-color-b">Chatbot Builder</a></h6>
             <p class="card-text font-14">建立智能化的聊天機器人，解答常見問題、提供客戶支援、收集反饋等。</p>
@@ -226,7 +234,9 @@
           </div>
         </div>
         <div class="tool-card">
-          <img src="./img/tool2.png" class="card-img-top" alt="tool2">
+          <a href="#" class="bigpic">
+            <img src="./img/tool2.png" class="card-img-top" alt="tool2">
+          </a>
           <div class="card-body p-all-1">
             <h6 class="card-title fw-bold"><a href="#" class="text-color-b text-hover">Image Recognition Platform</a>
             </h6>
@@ -244,7 +254,9 @@
           </div>
         </div>
         <div class="tool-card">
-          <img src="./img/tool3.png" class="card-img-top" alt="tool3">
+          <a href="#" class="bigpic">
+            <img src="./img/tool3.png" class="card-img-top" alt="tool3">
+          </a>
           <div class="card-body p-all-1">
             <h6 class="card-title fw-bold "><a href="#" class="text-color-b text-hover">Language Translation API</a>
             </h6>
@@ -262,7 +274,9 @@
           </div>
         </div>
         <div class="tool-card">
-          <img src="./img/tool4.png" class="card-img-top" alt="tool4">
+          <a href="#" class="bigpic">
+            <img src="./img/tool4.png" class="card-img-top" alt="tool4">
+          </a>
           <div class="card-body p-all-1">
             <h6 class="card-title fw-bold"><a href="#" class="text-color-b text-hover">Sentiment Analysis API</a></h6>
             <p class="card-text font-14">自動識別文本中的情感傾向，包括正向、負向和中性等。適用於情感分析、社交媒體監控、市場調查等。</p>
@@ -279,7 +293,9 @@
           </div>
         </div>
         <div class="tool-card">
-          <img src="./img/tool5.png" class="card-img-top" alt="tool5">
+          <a href="#" class="bigpic">
+            <img src="./img/tool5.png" class="card-img-top" alt="tool5">
+          </a>
           <div class="card-body p-all-1">
             <h6 class="card-title fw-bold "><a href="#" class="text-color-b text-hover">Fraud Detection Platform</a>
             </h6>
@@ -297,7 +313,9 @@
           </div>
         </div>
         <div class="tool-card">
-          <img src="./img/tool6.png" class="card-img-top" alt="tool6">
+          <a href="#" class="bigpic">
+            <img src="./img/tool6.png" class="card-img-top" alt="tool6">
+          </a>
           <div class="card-body p-all-1">
             <h6 class="card-title fw-bold "><a href="#" class="text-color-b text-hover">Voice Assistant SDK</a></h6>
             <p class="card-text font-14">過語音控制應用程式、設備，實現多種功能，例如播放音樂、查詢天氣、發送信息等。</p>
@@ -335,65 +353,65 @@
   </div>
   <div class="container">
     <div class="qa">
-      <h6>常見問題</h6>
-      <ul class="qa-list">
-        <li class="qa-item">
+      <h5>常見問題</h5>
+      <ul class="qa-list p-0">
+        <li class="qa-item list-unstyled">
           <div class="qa-title">
-            <h6>如何選擇適合的AI模型？</h6>
             <div class="qa-xy">
               <div class="x"></div>
               <div class="y"></div>
             </div>
+            <h6>如何選擇適合的AI模型？</h6>
           </div>
           <div class="qa-text qa1">
             選擇適合的 AI 模型需要考慮您的應用場景、需要解決的問題、可用的資源以及預算等因素。可以通過對比不同模型的性能、準確率、速度等指標，以及與其他用戶的評價與反饋，來選擇最適合的模型。
           </div>
         </li>
-        <li class="qa-item">
+        <li class="qa-item list-unstyled">
           <div class="qa-title ">
-            <h6>租用模型的費用是如何計算的？ </h6>
             <div class="qa-xy">
               <div class="x"></div>
               <div class="y"></div>
             </div>
+            <h6>租用模型的費用是如何計算的？ </h6>
           </div>
           <div class="qa-text qa2 ">
             租用模型的費用通常會根據模型的性能和使用時間等因素進行計算。具體而言，模型的性能可以根據其精度、速度、暫用資源等指標來評估；而使用時間可以根據租用時間的長短來計算，通常會按小時、天或月來計算。綜合考慮這些因素，系統會自動算出對應的租用費用。
           </div>
         </li>
-        <li class="qa-item">
+        <li class="qa-item list-unstyled">
           <div class="qa-title">
-            <h6>如何進行付款？</h6>
             <div class="qa-xy">
               <div class="x"></div>
               <div class="y"></div>
             </div>
+            <h6>如何進行付款？</h6>
           </div>
           <div class="qa-text qa3">
             付款方式可以通過網站上提供的宴上支付平台進行支付。具體而言，您可以選擇信用卡、銀行轉帳電子錢包等不同的支付方式進行支付。在支付前，您需要先登錄網站並選擇適合的租用方案，系統會自動計算出對應的租用欸用和支付金額，然後您可以選擇適合的支付方式進行支付。完成支付後，系統會自動向您提供相應的服務。
           </div>
         </li>
-        <li class="qa-item">
+        <li class="qa-item list-unstyled">
           <div class="qa-title">
-            <h6>租用模型的期限是多久？</h6>
             <div class="qa-xy">
               <div class="x"></div>
               <div class="y"></div>
             </div>
+            <h6>租用模型的期限是多久？</h6>
           </div>
-          <div class="qa-text qa3">
+          <div class="qa-text qa4">
             租用模型的期限可以根據您的需求進行設置，通常可以選擇幾個小時、幾天或幾個月等不同的時間段。
           </div>
         </li>
-        <li class="qa-item">
+        <li class="qa-item list-unstyled">
           <div class="qa-title">
-            <h6>如果在使用的過程中遇到問題，應該怎麼處理？</h6>
             <div class="qa-xy">
               <div class="x"></div>
               <div class="y"></div>
             </div>
+            <h6>如果在使用的過程中遇到問題，應該怎麼處理？</h6>
           </div>
-          <div class="qa-text qa3">
+          <div class="qa-text qa5">
             如果在使用過程中遇到問題，您可以聯繫惡扶或技術支持人員進行諮詢或報告問題。您也可以。您也可以通過網站上的幫助中心或社區論壇尋找相關的解決方案和回答。
           </div>
         </li>
@@ -401,14 +419,6 @@
     </div>
   </div>
   <div class="container">
-    <div class="footer-ad">
-      <h4 class="mb-9">現在就來建立屬於你的服務吧</h4>
-      <a href="#" class="btn" type="button">開始使用
-        <span class="material-icons">
-          north_east
-        </span>
-      </a>
-    </div>
     <div class="footer-section">
       <div class="footer-menu">
         <h3 class="mb-1 text-hover"> <a href="./index.html" type="button">首頁</a></h3>
@@ -441,7 +451,7 @@
         </a>
       </li>
     </ul>
-    <div class="d-flex footer-link2 d-md-none">
+    <div class="d-flex footer-link2 d-md-none flex-wrap">
       <a href="#">Facebook</a>
       <a href="#">Twitter</a>
       <a href="#">Instagram</a>
