@@ -46,9 +46,15 @@
 	flex-wrap: wrap;
 	align-items: center;
 }
+@media (max-width: 576px) {
+	.qa-title {
+		flex-wrap: nowrap;
+	}
+  }
 .qa-title h6{
 	font-weight: bold;
 	margin-left: 25px;
+	margin-bottom: 0;
 }
 .qa-xy{
 	display: flex;
