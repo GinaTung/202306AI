@@ -1,4 +1,11 @@
 # 202306AI
+
+1. 紀錄學習
+   - 內容(hide)
+2. 架構
+3. 規範
+   - -
+   - 
 <!-- This content will not appear in the rendered Markdown 
 - Day1 - [HTML 標籤元素、CSS 判斷](https://hackmd.io/v6Qj9HLiQxmo7AlxSQbBGA)
 - Day2 - [圖片處理技巧](https://hackmd.io/rWUTI_PRSl25nSkion4w0A)
