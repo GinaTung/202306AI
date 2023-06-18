@@ -1,5 +1,5 @@
 # 202306AI
-
+<!-- This content will not appear in the rendered Markdown 
 - Day1 - [HTML 標籤元素、CSS 判斷](https://hackmd.io/v6Qj9HLiQxmo7AlxSQbBGA)
 - Day2 - [圖片處理技巧](https://hackmd.io/rWUTI_PRSl25nSkion4w0A)
 - Day3 - [box-sizing](https://hackmd.io/xGP7A2lyQGyMTNGOkBaEiA)
@@ -27,3 +27,4 @@
 - Day25 - [常見問題區塊摺疊效果](https://hackmd.io/v_lqUt9ARviLsiZnnGEp_w)
 - Day26 - [Swiper 輪播套件](https://hackmd.io/hMjHBbxeTcOc4ydNan9oTw)
 - Day27 - [Swiper RWD 變換排版、CSS 樣式調整](https://hackmd.io/mcxBdODCQguJZX7mM_UFKg)
+-->
