@@ -1,0 +1,40 @@
+.pricing{
+    margin-bottom: 160px;
+}
+.material-icons-size-16{
+    width: 16px;
+    height: 16px;
+  }
+  .card2{
+    border: 1px solid #525252;
+    padding: 0;
+  }
+  .card2-spacing-x{
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .card2-spacing-pt{
+    padding-top: 20px;
+  }
+  .card2-spacing-pb{
+    padding-bottom: 20px;
+  }
+  .card2-body{
+    border-bottom: 1px solid #525252;
+    margin-bottom: 0;
+    padding-bottom: 138px;
+  }
+  @media (max-width: 576px) {
+    .card2-body{
+      padding-bottom: 58px;
+    }
+  }
+  .card2-footer{
+    padding: 20px 32px;
+  }
+  .card2-text-color{
+    color: #f2f2f2;
+  }
+  .card2-text-color2{
+    color: #919191;
+  }
