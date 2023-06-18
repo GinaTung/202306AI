@@ -1,0 +1,12 @@
+/* .usageRules{
+    display: flex;
+} */
+.bd-m-1{
+    border-bottom: 1px solid #525252;
+    margin-bottom: 40px;
+}
+@media (max-width: 767px) {
+    .bd-m-1{
+        margin-bottom: 24px;
+    }
+  }
