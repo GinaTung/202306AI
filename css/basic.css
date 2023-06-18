@@ -40,6 +40,11 @@ h2 {
   font-size: 120px;
   line-height: 1.2;
 }
+@media (max-width:992px) {
+  h2{
+    font-size: 60px;
+  }
+}
 @media (max-width:576px) {
   h2{
     font-size: 48px;
@@ -62,6 +67,9 @@ h4 {
   h4{
     font-size: 32px;
   }
+  .font-28{
+    font-size: 28px;
+  }
 }
 h5 {
   font-size: 32px;
@@ -73,6 +81,7 @@ h6 {
 .font-14 {
   font-size: 14px;
 }
+
 .mb-0 {
   margin-bottom: 4px !important;
 }
